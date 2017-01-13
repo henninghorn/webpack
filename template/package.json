@@ -16,7 +16,7 @@
     "vue": "^2.1.0",
     "framework7": "^1.5.2",
     "framework7-icons": "^0.8.7",
-    "framework7-vue": "^0.7.6",
+    "framework7-vue": "^0.7.6"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
