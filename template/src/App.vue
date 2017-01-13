@@ -1,28 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+
+    <!-- Statusbar -->
+    <f7-statusbar></f7-statusbar>
+
+    <f7-pages>
+      <f7-page>
+        <f7-block-title>
+          Welcome
+        </f7-block-title>
+        <f7-block>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quae ad aut minima tempora laboriosam placeat doloribus pariatur ullam dolorem eligendi, quisquam tempore accusamus iure nostrum voluptatum omnis asperiores nemo.
+        </f7-block>
+      </f7-page>
+    </f7-pages>
+
   </div>
 </template>
-
-<script>
-import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-
-export default {
-  name: 'app',
-  components: {
-    Hello{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-</script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

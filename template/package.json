@@ -13,7 +13,10 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
-    "vue": "^2.1.0"
+    "vue": "^2.1.0",
+    "framework7": "^1.5.2",
+    "framework7-icons": "^0.8.7",
+    "framework7-vue": "^0.7.6",
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
